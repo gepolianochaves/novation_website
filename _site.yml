@@ -1,0 +1,58 @@
+name: "novation-website"
+navbar:
+  title: "Núcleo de vivências, estudos e lutas de ex-bolsistas brasileiros no exterior"
+  type: "inverse"
+  left:
+    - text: "Home"
+      icon: "fa-home"
+      href: index.html
+    - text: "Sobre nós"  
+      icon: fa-info
+      href: "about.html"
+    - text: "Q&A Novação"
+      icon: "fa-solid fa-user"
+      href: "q_a_novacao.html"
+    - text: "Novação: Perguntas c/ Gráficos de Pesquisa"
+      icon: "fa-solid fa-chart-simple"
+      href: "novacao_research_questions.html"
+    - text: "Code notebooks"
+      icon: fa-book
+      menu:
+        - text: "Week 1"
+        - text: "a. Introduction to R"
+          href: "notebooks/Introduction-to-R-and-Terminal.html"
+        - text: "b. Data Download and Processing"
+          href: "notebooks/01-neuroblastoma-r2-GSE62564.html"
+        - text: "c. Data Visualization"
+          href: "notebooks/02-neuroblastoma-r2-plots-GSE62564.html"
+        - text: "---------"
+        - text: "Week 2"
+        - text: "a. Introduction to the terminal"
+          href: "notebooks/Introduction-to-the-Terminal.html"
+        - text: "b. Variant Call Pipeline"
+          href: "notebooks/2-Variant-Call-Pipeline.html"
+        - text: "c. Survival Analysis"
+          href: "notebooks/10-Survival-KM-and-Cox-Regression-Kocak-498.html"
+        - text: "---------"
+        - text: "Week 3"
+        - text: "a. Introduction to Python"
+          href: "notebooks/10-Survival-KM-and-Cox-Regression-Kocak-498.html"
+        - text: "b. Logistic Regression for Classification"
+          href: "notebooks/10-Survival-KM-and-Cox-Regression-Kocak-498.html"
+        - text: "---------"
+        - text: "Final Project"
+        - text: "Project 1"
+          href: "notebooks/10-Survival-KM-and-Cox-Regression-Kocak-498.html"
+        - text: "Project 2"
+          href: "notebooks/10-Survival-KM-and-Cox-Regression-Kocak-498.html"
+    - text: "Final Projects"
+      icon: fa-address-book-o
+      menu:
+        - text: "Final Projects"
+        - text: "Project 1: SARS-CoV-2 Web Application"
+          href: "notebooks/sars-cov-2-web-application.html"
+        - text: "Project 2: Survival Analysis of Neuroblastoma"
+          href: "notebooks/neuroblastoma-survival.html"
+output:
+  html_document:
+    theme: readable
